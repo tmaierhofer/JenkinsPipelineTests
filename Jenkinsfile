@@ -1,6 +1,6 @@
 
 pipeline {
-    agent { docker { image 'hello-world' } }
+    agent { docker { image 'ubuntu' } }
     stages {
         stage('Build') {
             steps {
